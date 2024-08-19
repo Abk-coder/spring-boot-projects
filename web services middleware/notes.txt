@@ -1,0 +1,10 @@
+Modele de com distribue:
+- Reseau: TCP(Socket)(connecte)/UDP(DataGram)(deconnecte)
+- Middleware:
+	- Synchrone: RMI(Remote Method Invocation), COBRA(Common Object Request Brocker Architecture), 
+		web services: SOAP(http1.1+XML)
+				REST(http1.1,JSON, XML,...)
+				GraphQL(http1.1, json)
+				GRPC(http2, Protobuf)
+	- Asynchrone(Middleware Oriente Message: MOM):
+		Par l'intermediaire d'un broker: RabbitMQ, KAFKA, etc..)
