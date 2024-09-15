@@ -1,0 +1,243 @@
+{
+  "authorities": [
+    {
+      "authority": "SCOPE_email"
+    },
+    {
+      "authority": "offline_access"
+    },
+    {
+      "authority": "default-roles-eban-realm"
+    },
+    {
+      "authority": "uma_authorization"
+    },
+    {
+      "authority": "USER"
+    },
+    {
+      "authority": "SCOPE_profile"
+    }
+  ],
+  "details": {
+    "remoteAddress": "127.0.0.1",
+    "sessionId": null
+  },
+  "authenticated": true,
+  "principal": {
+    "tokenValue": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJ2MTVTcTZaM21xYXd6dkI3ZnA5LWkwMHdFLTl6R3lUTmFHZldlZjkwc2swIn0.eyJleHAiOjE3MjQzMzkzNTAsImlhdCI6MTcyNDMzOTA1MCwianRpIjoiYmRkNTEzNTQtNzRiYy00MzlmLWI3ODktMTlkNmYzMzg5ZmM1IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3JlYWxtcy9lYmFuay1yZWFsbSIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiJkYTc4ODQyMy1hNGVmLTRiZmEtYmE1Yi0wOGQ0NDE3YzRjY2QiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJlYmFuay1jbGllbnQiLCJzaWQiOiJiNTk0YjRhNS1kZTBjLTQ4NjQtYjA4Yy05MDk5YTkzZDQ5N2QiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbIi8qIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsImRlZmF1bHQtcm9sZXMtZWJhbi1yZWFsbSIsInVtYV9hdXRob3JpemF0aW9uIiwiVVNFUiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoicHJvZmlsZSBlbWFpbCIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwibmFtZSI6IkFiZG91bCBLaGFkcmUiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJ1c2VyMSIsImdpdmVuX25hbWUiOiJBYmRvdWwiLCJmYW1pbHlfbmFtZSI6IktoYWRyZSIsImVtYWlsIjoidXNlcjFAZ21haWwuY29tIn0.YPsABF2A1vYHyAKb0AKg2aVf2K2Qaq0LkqjRXQjz4rTtR_ap7BP6NmHAl8ys-HVft9jzAWSghSyrqI12yapGyEKP1x8XU4JAGHcxiy_qZLPZg3fIHPo3IgtTnULOoZhm3paDayhRfs2C7ppe7y97f0moAvKpJc8CG190JAw3lNg2A_xGuBK1avR_ejAhXXKPtX8u_VHWyaFjUugK7LO9dHP1LiK5-I4FoobMqFR1CAJy5Z_JmaG5B5_lj8PY99T7y3XFLCXTun_dfqKaEtHHGU6ekOLe9UarjLKdVZvBhKlMnDY8UhDI1M6WCuQ8z6zOWOfq81pfe2RAhyflYMCrYQ",
+    "issuedAt": "2024-08-22T15:04:10Z",
+    "expiresAt": "2024-08-22T15:09:10Z",
+    "headers": {
+      "kid": "v15Sq6Z3mqawzvB7fp9-i00wE-9zGyTNaGfWef90sk0",
+      "typ": "JWT",
+      "alg": "RS256"
+    },
+    "claims": {
+      "sub": "da788423-a4ef-4bfa-ba5b-08d4417c4ccd",
+      "resource_access": {
+        "account": {
+          "roles": [
+            "manage-account",
+            "manage-account-links",
+            "view-profile"
+          ]
+        }
+      },
+      "email_verified": false,
+      "allowed-origins": [
+        "/*"
+      ],
+      "iss": "http://localhost:8080/realms/ebank-realm",
+      "typ": "Bearer",
+      "preferred_username": "user1",
+      "given_name": "Abdoul",
+      "sid": "b594b4a5-de0c-4864-b08c-9099a93d497d",
+      "aud": [
+        "account"
+      ],
+      "acr": "1",
+      "realm_access": {
+        "roles": [
+          "offline_access",
+          "default-roles-eban-realm",
+          "uma_authorization",
+          "USER"
+        ]
+      },
+      "azp": "ebank-client",
+      "scope": "profile email",
+      "name": "Abdoul Khadre",
+      "exp": "2024-08-22T15:09:10Z",
+      "iat": "2024-08-22T15:04:10Z",
+      "family_name": "Khadre",
+      "jti": "bdd51354-74bc-439f-b789-19d6f3389fc5",
+      "email": "user1@gmail.com"
+    },
+    "subject": "da788423-a4ef-4bfa-ba5b-08d4417c4ccd",
+    "id": "bdd51354-74bc-439f-b789-19d6f3389fc5",
+    "audience": [
+      "account"
+    ],
+    "issuer": "http://localhost:8080/realms/ebank-realm",
+    "notBefore": null
+  },
+  "credentials": {
+    "tokenValue": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJ2MTVTcTZaM21xYXd6dkI3ZnA5LWkwMHdFLTl6R3lUTmFHZldlZjkwc2swIn0.eyJleHAiOjE3MjQzMzkzNTAsImlhdCI6MTcyNDMzOTA1MCwianRpIjoiYmRkNTEzNTQtNzRiYy00MzlmLWI3ODktMTlkNmYzMzg5ZmM1IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3JlYWxtcy9lYmFuay1yZWFsbSIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiJkYTc4ODQyMy1hNGVmLTRiZmEtYmE1Yi0wOGQ0NDE3YzRjY2QiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJlYmFuay1jbGllbnQiLCJzaWQiOiJiNTk0YjRhNS1kZTBjLTQ4NjQtYjA4Yy05MDk5YTkzZDQ5N2QiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbIi8qIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsImRlZmF1bHQtcm9sZXMtZWJhbi1yZWFsbSIsInVtYV9hdXRob3JpemF0aW9uIiwiVVNFUiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoicHJvZmlsZSBlbWFpbCIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwibmFtZSI6IkFiZG91bCBLaGFkcmUiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJ1c2VyMSIsImdpdmVuX25hbWUiOiJBYmRvdWwiLCJmYW1pbHlfbmFtZSI6IktoYWRyZSIsImVtYWlsIjoidXNlcjFAZ21haWwuY29tIn0.YPsABF2A1vYHyAKb0AKg2aVf2K2Qaq0LkqjRXQjz4rTtR_ap7BP6NmHAl8ys-HVft9jzAWSghSyrqI12yapGyEKP1x8XU4JAGHcxiy_qZLPZg3fIHPo3IgtTnULOoZhm3paDayhRfs2C7ppe7y97f0moAvKpJc8CG190JAw3lNg2A_xGuBK1avR_ejAhXXKPtX8u_VHWyaFjUugK7LO9dHP1LiK5-I4FoobMqFR1CAJy5Z_JmaG5B5_lj8PY99T7y3XFLCXTun_dfqKaEtHHGU6ekOLe9UarjLKdVZvBhKlMnDY8UhDI1M6WCuQ8z6zOWOfq81pfe2RAhyflYMCrYQ",
+    "issuedAt": "2024-08-22T15:04:10Z",
+    "expiresAt": "2024-08-22T15:09:10Z",
+    "headers": {
+      "kid": "v15Sq6Z3mqawzvB7fp9-i00wE-9zGyTNaGfWef90sk0",
+      "typ": "JWT",
+      "alg": "RS256"
+    },
+    "claims": {
+      "sub": "da788423-a4ef-4bfa-ba5b-08d4417c4ccd",
+      "resource_access": {
+        "account": {
+          "roles": [
+            "manage-account",
+            "manage-account-links",
+            "view-profile"
+          ]
+        }
+      },
+      "email_verified": false,
+      "allowed-origins": [
+        "/*"
+      ],
+      "iss": "http://localhost:8080/realms/ebank-realm",
+      "typ": "Bearer",
+      "preferred_username": "user1",
+      "given_name": "Abdoul",
+      "sid": "b594b4a5-de0c-4864-b08c-9099a93d497d",
+      "aud": [
+        "account"
+      ],
+      "acr": "1",
+      "realm_access": {
+        "roles": [
+          "offline_access",
+          "default-roles-eban-realm",
+          "uma_authorization",
+          "USER"
+        ]
+      },
+      "azp": "ebank-client",
+      "scope": "profile email",
+      "name": "Abdoul Khadre",
+      "exp": "2024-08-22T15:09:10Z",
+      "iat": "2024-08-22T15:04:10Z",
+      "family_name": "Khadre",
+      "jti": "bdd51354-74bc-439f-b789-19d6f3389fc5",
+      "email": "user1@gmail.com"
+    },
+    "subject": "da788423-a4ef-4bfa-ba5b-08d4417c4ccd",
+    "id": "bdd51354-74bc-439f-b789-19d6f3389fc5",
+    "audience": [
+      "account"
+    ],
+    "issuer": "http://localhost:8080/realms/ebank-realm",
+    "notBefore": null
+  },
+  "token": {
+    "tokenValue": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJ2MTVTcTZaM21xYXd6dkI3ZnA5LWkwMHdFLTl6R3lUTmFHZldlZjkwc2swIn0.eyJleHAiOjE3MjQzMzkzNTAsImlhdCI6MTcyNDMzOTA1MCwianRpIjoiYmRkNTEzNTQtNzRiYy00MzlmLWI3ODktMTlkNmYzMzg5ZmM1IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3JlYWxtcy9lYmFuay1yZWFsbSIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiJkYTc4ODQyMy1hNGVmLTRiZmEtYmE1Yi0wOGQ0NDE3YzRjY2QiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJlYmFuay1jbGllbnQiLCJzaWQiOiJiNTk0YjRhNS1kZTBjLTQ4NjQtYjA4Yy05MDk5YTkzZDQ5N2QiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbIi8qIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsImRlZmF1bHQtcm9sZXMtZWJhbi1yZWFsbSIsInVtYV9hdXRob3JpemF0aW9uIiwiVVNFUiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoicHJvZmlsZSBlbWFpbCIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwibmFtZSI6IkFiZG91bCBLaGFkcmUiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJ1c2VyMSIsImdpdmVuX25hbWUiOiJBYmRvdWwiLCJmYW1pbHlfbmFtZSI6IktoYWRyZSIsImVtYWlsIjoidXNlcjFAZ21haWwuY29tIn0.YPsABF2A1vYHyAKb0AKg2aVf2K2Qaq0LkqjRXQjz4rTtR_ap7BP6NmHAl8ys-HVft9jzAWSghSyrqI12yapGyEKP1x8XU4JAGHcxiy_qZLPZg3fIHPo3IgtTnULOoZhm3paDayhRfs2C7ppe7y97f0moAvKpJc8CG190JAw3lNg2A_xGuBK1avR_ejAhXXKPtX8u_VHWyaFjUugK7LO9dHP1LiK5-I4FoobMqFR1CAJy5Z_JmaG5B5_lj8PY99T7y3XFLCXTun_dfqKaEtHHGU6ekOLe9UarjLKdVZvBhKlMnDY8UhDI1M6WCuQ8z6zOWOfq81pfe2RAhyflYMCrYQ",
+    "issuedAt": "2024-08-22T15:04:10Z",
+    "expiresAt": "2024-08-22T15:09:10Z",
+    "headers": {
+      "kid": "v15Sq6Z3mqawzvB7fp9-i00wE-9zGyTNaGfWef90sk0",
+      "typ": "JWT",
+      "alg": "RS256"
+    },
+    "claims": {
+      "sub": "da788423-a4ef-4bfa-ba5b-08d4417c4ccd",
+      "resource_access": {
+        "account": {
+          "roles": [
+            "manage-account",
+            "manage-account-links",
+            "view-profile"
+          ]
+        }
+      },
+      "email_verified": false,
+      "allowed-origins": [
+        "/*"
+      ],
+      "iss": "http://localhost:8080/realms/ebank-realm",
+      "typ": "Bearer",
+      "preferred_username": "user1",
+      "given_name": "Abdoul",
+      "sid": "b594b4a5-de0c-4864-b08c-9099a93d497d",
+      "aud": [
+        "account"
+      ],
+      "acr": "1",
+      "realm_access": {
+        "roles": [
+          "offline_access",
+          "default-roles-eban-realm",
+          "uma_authorization",
+          "USER"
+        ]
+      },
+      "azp": "ebank-client",
+      "scope": "profile email",
+      "name": "Abdoul Khadre",
+      "exp": "2024-08-22T15:09:10Z",
+      "iat": "2024-08-22T15:04:10Z",
+      "family_name": "Khadre",
+      "jti": "bdd51354-74bc-439f-b789-19d6f3389fc5",
+      "email": "user1@gmail.com"
+    },
+    "subject": "da788423-a4ef-4bfa-ba5b-08d4417c4ccd",
+    "id": "bdd51354-74bc-439f-b789-19d6f3389fc5",
+    "audience": [
+      "account"
+    ],
+    "issuer": "http://localhost:8080/realms/ebank-realm",
+    "notBefore": null
+  },
+  "name": "user1",
+  "tokenAttributes": {
+    "sub": "da788423-a4ef-4bfa-ba5b-08d4417c4ccd",
+    "resource_access": {
+      "account": {
+        "roles": [
+          "manage-account",
+          "manage-account-links",
+          "view-profile"
+        ]
+      }
+    },
+    "email_verified": false,
+    "allowed-origins": [
+      "/*"
+    ],
+    "iss": "http://localhost:8080/realms/ebank-realm",
+    "typ": "Bearer",
+    "preferred_username": "user1",
+    "given_name": "Abdoul",
+    "sid": "b594b4a5-de0c-4864-b08c-9099a93d497d",
+    "aud": [
+      "account"
+    ],
+    "acr": "1",
+    "realm_access": {
+      "roles": [
+        "offline_access",
+        "default-roles-eban-realm",
+        "uma_authorization",
+        "USER"
+      ]
+    },
+    "azp": "ebank-client",
+    "scope": "profile email",
+    "name": "Abdoul Khadre",
+    "exp": "2024-08-22T15:09:10Z",
+    "iat": "2024-08-22T15:04:10Z",
+    "family_name": "Khadre",
+    "jti": "bdd51354-74bc-439f-b789-19d6f3389fc5",
+    "email": "user1@gmail.com"
+  }
+}

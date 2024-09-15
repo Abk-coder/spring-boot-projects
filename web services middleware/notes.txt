@@ -8,3 +8,9 @@ Modele de com distribue:
 				GRPC(http2, Protobuf)
 	- Asynchrone(Middleware Oriente Message: MOM):
 		Par l'intermediaire d'un broker: RabbitMQ, KAFKA, etc..)
+
+
+
+https://accounts.google.com/o/oauth2/v2/auth?response_type=code&client_id=224511305910-42du8sr69gjs61vfmn16keos5flnsfu7.apps.googleusercontent.com&scope=openid%20profile%20email&state=KnmKghBhBCzm5mJe43hzOLzFjmSmQTY4m65oWO9kDRY%3D&redirect_uri=http://localhost:8083/login/oauth2/code/google&nonce=JrCPGXv8aG_z4nFlh3sZHIsoJuQWVf1kDhetkJcd1c4
+
+nvdia api key: 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

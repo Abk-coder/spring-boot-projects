@@ -1,0 +1,16 @@
+204 NO_CONTENT
+200 OK
+201 CREATED
+204 NO CONTENT
+401
+402
+403 FORBIDDEN
+404 NOT_FOUND
+500 INTERNAL_SERVER_ERROR
+
+
+# Audit Trail and Archiving
+	Archive (move) the deleted data into a different location.
+	Add audit fields to the record itself. For example, the DELETED_DATE column that we mentioned already. Additional audit fields can 	be added, for example DELETED_BY_USER. Again, this isn't limited to Delete operations, but Create and Update also.
+
+Notice that we've added the @DirtiesContext annotation. We'll add this annotation to all tests which change the data. If we don't, then these tests could affect the result of other tests in the file.

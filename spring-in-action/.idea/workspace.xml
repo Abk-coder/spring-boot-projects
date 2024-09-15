@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f842de27-5cdb-40c9-b7e2-7b16a98de029" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abk/sn/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../banque_account_app/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/../banque_account_app/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../banque_account_app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../banque_account_app/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../banque_account_app/account-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../banque_account_app/account-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../banque_account_app/config-repo" beforeDir="false" afterPath="$PROJECT_DIR$/../banque_account_app/config-repo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../banque_account_app/config-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../banque_account_app/config-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../banque_account_app/customer-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../banque_account_app/customer-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../banque_account_app/customer-service/src/main/java/sn/abk/customerservice/CustomerServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../banque_account_app/customer-service/src/main/java/sn/abk/customerservice/CustomerServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../banque_account_app/customer-service/src/main/java/sn/abk/customerservice/config/GlobalConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../banque_account_app/customer-service/src/main/java/sn/abk/customerservice/config/GlobalConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../banque_account_app/customer-service/src/main/java/sn/abk/customerservice/entities/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../banque_account_app/customer-service/src/main/java/sn/abk/customerservice/entities/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../banque_account_app/customer-service/src/main/java/sn/abk/customerservice/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../banque_account_app/customer-service/src/main/java/sn/abk/customerservice/repository/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../banque_account_app/customer-service/src/main/java/sn/abk/customerservice/web/ConfigTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../banque_account_app/customer-service/src/main/java/sn/abk/customerservice/web/ConfigTestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../banque_account_app/customer-service/src/main/java/sn/abk/customerservice/web/CustomerRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../banque_account_app/customer-service/src/main/java/sn/abk/customerservice/web/CustomerRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../banque_account_app/customer-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../banque_account_app/customer-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../banque_account_app/gateway-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../banque_account_app/gateway-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../banque_account_app/gateway-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../banque_account_app/gateway-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cashcard/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cashcard/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cashcard/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cashcard/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cashcard/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cashcard/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cashcard/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cashcard/src/main/java/example/cashcard/CashcardApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cashcard/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cashcard/src/test/java/example/cashcard/CashcardApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enset.ioc/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../enset.ioc/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enset.ioc/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../enset.ioc/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enset.ioc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../enset.ioc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web services middleware/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../web services middleware/notes.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2lfGefhrI2gIfIgMz1l5OEsfWHq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Courses/SpringBoot/spring-in-action/src/main/java/abk/sn/Main.java",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f842de27-5cdb-40c9-b7e2-7b16a98de029" name="Changes" comment="" />
+      <created>1725563817454</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725563817454</updated>
+      <workItem from="1725563818581" duration="210000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/abk/sn/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,15 @@
+Dialog Systems in Detail
+
+obj principal: comprendre la question de l'utilisateur et proposer une reponse
+
+So, in a dialog sys‐
+tem, the most important thing is understanding nuances from the user’s input in a
+turn-by-turn way and storing them in context to generate responses.
+
+# Dialog act or intent:  the aim of a user command.
+# Slot or entity: fixed ontological construct that holds information regarding specific entities related to the intent
+The slots and value together are sometimes denoted as an “entity"
+# Dialog state or context: an ontological construct that contains both the information
+about the dialog act as well as state-value pairs. 
+
+

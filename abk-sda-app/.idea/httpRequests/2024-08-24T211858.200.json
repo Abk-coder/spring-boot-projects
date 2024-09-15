@@ -1,0 +1,14 @@
+[
+  {
+    "id": "77240c5c-fdda-49b5-82e9-b22db7e9b9a5",
+    "name": "Computer",
+    "price": 300000.0,
+    "quantity": 12
+  },
+  {
+    "id": "40f0d502-e810-4eb7-9fed-c1310cfae303",
+    "name": "Phone",
+    "price": 70000.0,
+    "quantity": 15
+  }
+]

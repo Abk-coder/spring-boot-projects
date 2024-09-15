@@ -5,26 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b367a73-9683-4454-baea-6bc60c00916e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-service/src/main/java/sn/abk/accountservice/clients/CustomerRestClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-service/src/main/java/sn/abk/accountservice/entities/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-service/src/main/java/sn/abk/accountservice/enums/AccountType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-service/src/main/java/sn/abk/accountservice/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-service/src/main/java/sn/abk/accountservice/repository/BankAccountRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-service/src/main/java/sn/abk/accountservice/web/AccountRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/sn/abk/customerservice/config/GlobalConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/sn/abk/customerservice/entities/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/sn/abk/customerservice/repository/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/sn/abk/customerservice/web/ConfigTestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/sn/abk/customerservice/web/CustomerRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/app.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sn/abk/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-repo" beforeDir="false" afterPath="$PROJECT_DIR$/config-repo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cashcard/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cashcard/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cashcard/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cashcard/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cashcard/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cashcard/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cashcard/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cashcard/src/main/java/example/cashcard/CashcardApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cashcard/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cashcard/src/test/java/example/cashcard/CashcardApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enset.ioc/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../enset.ioc/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enset.ioc/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../enset.ioc/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../enset.ioc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../enset.ioc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web services middleware/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../web services middleware/notes.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,12 +31,14 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
+        <option value="Dockerfile" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/config-repo" />
   </component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -65,6 +62,11 @@
   "keyToString": {
     "HTTP Request.rest-api | #1.executor": "Run",
     "HTTP Request.rest-api_1 | #1.executor": "Run",
+    "JUnit.CustomerMapperTest.executor": "Run",
+    "JUnit.CustomerMapperTest.shouldMapCustomerToCustomerDTO.executor": "Run",
+    "JUnit.CustomerRepositoryTest.executor": "Coverage",
+    "JUnit.CustomerRepositoryTest.shoulFindCustomerByEmail.executor": "Run",
+    "JUnit.CustomerRepositoryTest.shouldFindByFirstNameContainsIgnoreCase.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -77,12 +79,14 @@
     "Spring Boot.CustomerServiceApplication.executor": "Run",
     "Spring Boot.DiscoveryServiceApplication.executor": "Run",
     "Spring Boot.GatewayServiceApplication.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Courses/SpringBoot/banque_account_app/config-repo",
+    "last_opened_file_path": "C:/Courses/SpringBoot/banque_account_app/gateway-service",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -90,7 +94,8 @@
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Courses/SpringBoot/banque_account_app/src/main/java/sn/abk/Main.java",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "spring",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "ts.external.directory.path": "C:\\Courses\\SpringBoot\\banque_account_app\\angular-frontend\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -103,8 +108,18 @@
       <recent name="sn.abk.accountservice.enums" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Courses\SpringBoot\banque_account_app\gateway-service" />
+      <recent name="C:\Courses\SpringBoot\banque_account_app\account-service" />
+      <recent name="C:\Courses\SpringBoot\banque_account_app\customer-service" />
+      <recent name="C:\Courses\SpringBoot\banque_account_app\config-service" />
       <recent name="C:\Courses\SpringBoot\banque_account_app\config-repo" />
-      <recent name="C:\Courses\SpringBoot\banque_account_app\gateway-service\src\main\resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="sn.abk.customerservice.mapper" />
+      <recent name="sn.abk.customerservice.repository" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -116,12 +131,84 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigServiceApplication">
-    <configuration name="rest-api | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" requestIdentifier="#1" runType="Run single request">
-      <method v="2" />
+  <component name="RunManager" selected="JUnit.CustomerMapperTest">
+    <configuration name="CustomerMapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="customer-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sn.abk.customerservice.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sn.abk.customerservice.mapper" />
+      <option name="MAIN_CLASS_NAME" value="sn.abk.customerservice.mapper.CustomerMapperTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="rest-api_1 | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http" requestIdentifier="#1" runType="Run single request">
-      <method v="2" />
+    <configuration name="CustomerMapperTest.shouldMapCustomerToCustomerDTO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="customer-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sn.abk.customerservice.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sn.abk.customerservice.mapper" />
+      <option name="MAIN_CLASS_NAME" value="sn.abk.customerservice.mapper.CustomerMapperTest" />
+      <option name="METHOD_NAME" value="shouldMapCustomerToCustomerDTO" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="customer-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sn.abk.customerservice.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sn.abk.customerservice.repository" />
+      <option name="MAIN_CLASS_NAME" value="sn.abk.customerservice.repository.CustomerRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerRepositoryTest.shouldFindByFirstNameContainsIgnoreCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="customer-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sn.abk.customerservice.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sn.abk.customerservice.repository" />
+      <option name="MAIN_CLASS_NAME" value="sn.abk.customerservice.repository.CustomerRepositoryTest" />
+      <option name="METHOD_NAME" value="shouldFindByFirstNameContainsIgnoreCase" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerRepositoryTest.shouldFindCustomerByEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="customer-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sn.abk.customerservice.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sn.abk.customerservice.repository" />
+      <option name="MAIN_CLASS_NAME" value="sn.abk.customerservice.repository.CustomerRepositoryTest" />
+      <option name="METHOD_NAME" value="shouldFindCustomerByEmail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="AccountServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="account-service" />
@@ -160,8 +247,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.rest-api_1 | #1" />
-        <item itemvalue="HTTP Request.rest-api | #1" />
+        <item itemvalue="JUnit.CustomerMapperTest" />
+        <item itemvalue="JUnit.CustomerMapperTest.shouldMapCustomerToCustomerDTO" />
+        <item itemvalue="JUnit.CustomerRepositoryTest" />
+        <item itemvalue="JUnit.CustomerRepositoryTest.shouldFindByFirstNameContainsIgnoreCase" />
+        <item itemvalue="JUnit.CustomerRepositoryTest.shouldFindCustomerByEmail" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +271,10 @@
       <workItem from="1723985410961" duration="7609000" />
       <workItem from="1724012315785" duration="7389000" />
       <workItem from="1724082686590" duration="3204000" />
-      <workItem from="1724088528512" duration="7416000" />
+      <workItem from="1724088528512" duration="18244000" />
+      <workItem from="1724151991911" duration="6756000" />
+      <workItem from="1724236002716" duration="84000" />
+      <workItem from="1725538034261" duration="9517000" />
     </task>
     <servers />
   </component>
@@ -202,5 +295,10 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/banque_account_app$CustomerRepositoryTest.ic" NAME="CustomerRepositoryTest Coverage Results" MODIFIED="1725542355844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>sn.abk.customerservice.repository.*</FILTER>
+    </SUITE>
   </component>
 </project>

@@ -1,0 +1,74 @@
+GET http://localhost:8098/products
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJHc29ONzI1YnAxT1lldzhpanF4ZEw0d1hJVjNVcWE0Tlh6UVVfRHZNWHc0In0.eyJleHAiOjE3MjQ1MzQ1MzUsImlhdCI6MTcyNDUzNDIzNSwianRpIjoiNDU2MjY4MGItYWZmNC00NWQ3LWFiNzQtNzIwN2JlOWVlYzdjIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3JlYWxtcy9zZGEtYXBwLXJlYWxtIiwiYXVkIjoiYWNjb3VudCIsInN1YiI6IjcxYzlmMzg0LWMyYzAtNDhkMy05NjE2LTM3NWU2N2NhMmJlMyIsInR5cCI6IkJlYXJlciIsImF6cCI6InNkYS1hcHAtY3VzdG9tZXItY2xpZW50Iiwic2lkIjoiNmZjN2IxYTctZTJhZi00NTZkLWI4MTYtZDk5YmI0MDNiZGYzIiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwOi8vbG9jYWxob3N0OjgwODMiXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwiQURNSU4iLCJ1bWFfYXV0aG9yaXphdGlvbiIsImRlZmF1bHQtcm9sZXMtc2RhLWFwcC1yZWFsbSIsIlVTRVIiXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm5hbWUiOiJNYWltb3VuYSBEaWFsbG8iLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJ1c2VyMiIsImdpdmVuX25hbWUiOiJNYWltb3VuYSIsImZhbWlseV9uYW1lIjoiRGlhbGxvIiwiZW1haWwiOiJ1c2VyMkBnbWFpbC5jb20ifQ.MTTIARnVP0ZjV6X3mG1WoStcAaXMWsrksp_n4xyY536aUpcDUW8aCvRJ2WvaXDpqHOqEP6uk8l6_fbpWvfCm1Hy69csEpTQ05gJHBkyobnRVel0A4xrwTVwpNme7GLd9PihRK_wAu0Fqfuc6ca8rr1IYejEo8OsSpo7HeILWlmUPkjeGgwXFrTvODuDuegT1vN4609SjcLhKsBfa6LxpzL-WDgIydnuvZFPkbtitvBpTZYVqrm_1jVAbVzaAUQ1_lWc7rCO8dxaNqPISV5UOk4vzODcSG_rNSUmXhn1QU2CTtRzB1sMw29yft0oHFfBv7Wxvs8HepT1BCm-H4DF1Sw
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Cookie: JSESSIONID=E7A2095F28C16E26FBB0CF813241E20C
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-08-24T211858.200.json
+
+###
+
+GET http://localhost:8098/products
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:8080/realms/sda-app-realm/protocol/openid-connect/token
+Accept: application/json
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 129
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+grant_type=password&username=user2&password=1234&client_id=sda-app-customer-client&client_secret=1PmqHJ3j1GHpKZfTRmZYtB3wQ9rMeqNl
+
+<> 2024-08-24T211715.200.json
+
+###
+
+POST http://localhost:8080/realms/sda-app-realm/protocol/openid-connect/token
+Accept: application/json
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 129
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+grant_type=password&username=user1&password=1234&client_id=sda-app-customer-client&client_secret=1PmqHJ3j1GHpKZfTRmZYtB3wQ9rMeqNl
+
+<> 2024-08-24T154351.200.json
+
+###
+
+POST http://localhost:8080/realms/sda-app-realm/protocol/openid-connect/token
+Accept: application/json
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 129
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+grant_type=password&username=user1&password=1234&client_id=sda-app-customer-client&client_secret=1PmqHJ3j1GHpKZfTRmZYtB3wQ9rMeqNl
+
+<> 2024-08-24T122821.200.json
+
+###
+
+POST http://localhost:8080/realms/sda-app-realm/protocol/openid-connect/token
+Accept: application/json
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 82
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+grant_type=password&username=user1&password=1234&client_id=sda-app-customer-client
+
+<> 2024-08-24T122658.401.json
+
+###
+
