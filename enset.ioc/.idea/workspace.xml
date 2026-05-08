@@ -5,31 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c2219cd-1b33-4e36-9aa6-ea229dfee456" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../banque_account_app/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/../banque_account_app/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abk-sda-app/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../abk-sda-app/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abk-sda-app/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../abk-sda-app/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abk-sda-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../abk-sda-app/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../banque_account_app/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../banque_account_app/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../banque_account_app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../banque_account_app/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banque_account_app/account-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../banque_account_app/account-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banque_account_app/config-repo" beforeDir="false" afterPath="$PROJECT_DIR$/../banque_account_app/config-repo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../banque_account_app/account-service/src/main/java/sn/abk/accountservice/entities/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../banque_account_app/account-service/src/main/java/sn/abk/accountservice/entities/BankAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../banque_account_app/config-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../banque_account_app/config-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banque_account_app/customer-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../banque_account_app/customer-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banque_account_app/customer-service/src/main/java/sn/abk/customerservice/CustomerServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../banque_account_app/customer-service/src/main/java/sn/abk/customerservice/CustomerServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banque_account_app/customer-service/src/main/java/sn/abk/customerservice/config/GlobalConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../banque_account_app/customer-service/src/main/java/sn/abk/customerservice/config/GlobalConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banque_account_app/customer-service/src/main/java/sn/abk/customerservice/entities/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../banque_account_app/customer-service/src/main/java/sn/abk/customerservice/entities/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banque_account_app/customer-service/src/main/java/sn/abk/customerservice/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../banque_account_app/customer-service/src/main/java/sn/abk/customerservice/repository/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banque_account_app/customer-service/src/main/java/sn/abk/customerservice/web/ConfigTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../banque_account_app/customer-service/src/main/java/sn/abk/customerservice/web/ConfigTestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banque_account_app/customer-service/src/main/java/sn/abk/customerservice/web/CustomerRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../banque_account_app/customer-service/src/main/java/sn/abk/customerservice/web/CustomerRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banque_account_app/customer-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../banque_account_app/customer-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banque_account_app/gateway-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../banque_account_app/gateway-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../banque_account_app/gateway-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../banque_account_app/gateway-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cashcard/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cashcard/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cashcard/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cashcard/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cashcard/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cashcard/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cashcard/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cashcard/src/main/java/example/cashcard/CashcardApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cashcard/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cashcard/src/test/java/example/cashcard/CashcardApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../core-spring-labfiles/lab" beforeDir="false" afterPath="$PROJECT_DIR$/../core-spring-labfiles/lab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ebanking-app-sec-demo/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ebanking-app-sec-demo/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ebanking-app-sec-demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ebanking-app-sec-demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-in-action/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-in-action/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-in-action/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-in-action/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-in-action/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-in-action/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-in-action/src/main/java/abk/sn/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-in-action/src/main/java/abk/sn/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web services middleware/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../web services middleware/notes.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,6 +113,7 @@
       <workItem from="1724692716227" duration="1072000" />
       <workItem from="1725012510477" duration="124000" />
       <workItem from="1725562905041" duration="42000" />
+      <workItem from="1748680317874" duration="1183000" />
     </task>
     <servers />
   </component>

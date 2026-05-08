@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/banque_account_app/config-repo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/core-spring-labfiles/lab" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring-in-action" vcs="Git" />
+  </component>
+</project>

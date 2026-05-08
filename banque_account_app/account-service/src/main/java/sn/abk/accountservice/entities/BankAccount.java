@@ -17,7 +17,7 @@ public class BankAccount {
     private String currency;
     @Enumerated(EnumType.STRING) //to save enum as string into db
     private AccountType type;
-    @Transient //ignore this attribute. Exists into the class but not in db
+    @Transient //Ignore this attribute. Exists into the class but not in db
     private Customer customer;
     private Long customerId;
 
